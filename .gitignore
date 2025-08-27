@@ -1,0 +1,10 @@
+__pycache__/
+build/
+wandb/
+TrainSet/
+TestSetA/
+TestSetB/
+result.txt
+*.pkl
+*.zip
+output/

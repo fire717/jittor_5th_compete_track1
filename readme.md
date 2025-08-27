@@ -4,6 +4,8 @@ conda create -n fifth_jittor_comp -y python=3.9
 conda activate fifth_jittor_comp
 python -m pip install jittor
 ```
+## 说明
+本方案以Convnext作为backbone，添加6分类头，使用CE优化，使用了数据增强、ema、ensemble等技术提升精度。
 
 ## 训练数据集配置
 下载TrainSet.zip, 解压后得到TrainSet文件夹，文件结果为
